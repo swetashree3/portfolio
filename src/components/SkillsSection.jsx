@@ -3,27 +3,27 @@ import { cn } from "@/lib/utils";
 
 const skills = [
   // Frontend
-  { name: "HTML/CSS", level: 95, category: "frontend" },
-  { name: "JavaScript", level: 90, category: "frontend" },
-  { name: "React", level: 90, category: "frontend" },
-  { name: "TypeScript", level: 85, category: "frontend" },
-  { name: "Tailwind CSS", level: 90, category: "frontend" },
-  { name: "Next.js", level: 80, category: "frontend" },
+  { name: "HTML/CSS", category: "frontend" },
+  { name: "JavaScript", category: "frontend" },
+  { name: "React", category: "frontend" },
+  { name: "TypeScript", category: "frontend" },
+  { name: "Tailwind CSS", category: "frontend" },
+  { name: "Next.js", category: "frontend" },
 
   // Backend
-  { name: "Node.js", level: 80, category: "backend" },
-  { name: "Express", level: 75, category: "backend" },
-  { name: "MongoDB", level: 70, category: "backend" },
+  { name: "Node.js", category: "backend" },
+  { name: "Express", category: "backend" },
+  { name: "MongoDB", category: "backend" },
 
   // Tools
-  { name: "Git/GitHub", level: 90, category: "tools" },
-  { name: "Docker", level: 70, category: "tools" },
-  { name: "VS Code", level: 95, category: "tools" },
+  { name: "Git/GitHub", category: "tools" },
+  { name: "Docker", category: "tools" },
+  { name: "VS Code", category: "tools" },
 
   // DSA
-  { name: "Data Structures", level: 95, category: "dsa" },
-  { name: "Algorithms", level: 90, category: "dsa" },
-  { name: "Problem Solving", level: 95, category: "dsa" },
+  { name: "Data Structures", category: "dsa" },
+  { name: "Algorithms", category: "dsa" },
+  { name: "Problem Solving", category: "dsa" },
 ];
 
 const categories = ["all", "frontend", "backend", "tools", "dsa"];
@@ -76,7 +76,7 @@ export const SkillsSection = () => {
 
               <div className="text-right mt-1">
                 <span className="text-sm text-muted-foreground">
-                  {skill.level}%
+                  {skill.level}
                 </span>
               </div>
             </div>
