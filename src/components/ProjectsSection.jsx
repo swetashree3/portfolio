@@ -34,7 +34,7 @@ const projects = [
     id: 4,
     title: "Netflix GPT",
     description:
-      "Built with Swiggy’s live API, React, and Tailwind. Used Redux Toolkit, HOC, Lazy Loading, and Shimmer UI for performance—20% faster load time. Tested with RTL + Jest.",
+      "Netflix GPT is a React app with a Netflix-style UI that uses GPT to recommend and search movies, built with Redux and Tailwind CSS.",
     image: "/net.png",
     tags: ["React", "Redux", "TailwindCss"],
     demoUrl: "https://6603d5426a6a086f56d4785c--heartfelt-florentine-27ee7f.netlify.app/",
