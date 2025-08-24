@@ -6,22 +6,42 @@ const projects = [
     title: "ByteChat (Real-Time Chat & Video Calling App )",
     description: "Built with React, Node.js, MongoDB, and Stream API. Features 1-on-1 & group chat, WebRTC video calls with screen sharing, JWT auth, Zustand state, and a responsive UI using TailwindCSS + daisyUI.",
     image: "/ByteChat.png",
-    tags: ["React","Node","MongoDb","Express","Stream API", "TailwindCSS", "Daisy UI"],
+    tags: ["React", "Node", "MongoDb", "Express", "Stream API", "TailwindCSS", "Daisy UI"],
     demoUrl: "https://bytechat-0hbv.onrender.com/",
     githubUrl: "https://github.com/sourav-n06/ByteChat",
   },
   {
-    id: 2,
+    "id": 2,
+    "title": "Next Hire (Job Portal App)",
+    "description": "Built with React, Node.js, MongoDB, and Express. Features include user authentication with JWT, job seekers can apply for jobs, and admins can post, manage, and track job listings. Resume uploads are handled via Cloudinary, and the app has a responsive UI using TailwindCSS",
+    "image": "/nexthire.png",
+    "tags": ["React", "Node", "MongoDB", "Express", "Cloudinary", "TailwindCSS"],
+    "demoUrl": "https://next-hire-o84z.onrender.com/",
+    "githubUrl": "https://github.com/sourav-n06/next-hire"
+  }
+  ,
+  {
+    "id": 3,
+    "title": "Snappin (Social Media App)",
+    "description": "Built with React, Node.js, MongoDB, and Express. Features user authentication with JWT, real-time post updates, likes, comments, follow/unfollow system, and a responsive UI using TailwindCSS ",
+    "image": "/snappin.png",
+    "tags": ["React", "Node", "MongoDB", "Express", "TailwindCSS"],
+    "demoUrl": "https://your-snappin-demo-url.com",
+    "githubUrl": "https://github.com/sourav-n06/snappin"
+
+  },
+  {
+    id: 4,
     title: "Course Selling App",
     description:
       "Responsive MERN app with Firebase auth, dynamic content, Cloudinary uploads, EmailJS integration, Redux state, and a Tailwind-powered mobile-first UI.",
     image: "/csa.png",
-    tags: ["React", "Redux", "FireBase", "TailwindCss", "EmailJS","Cloudinary"],
+    tags: ["React", "Redux", "FireBase", "TailwindCss", "EmailJS", "Cloudinary"],
     demoUrl: "https://academic-course-main-pi.vercel.app/",
     githubUrl: "https://github.com/sourav-n06/academic-course-main",
   },
   {
-    id: 3,
+    id: 5,
     title: "Food Ordering App",
     description:
       "Built with Swiggy’s live API, React, and Tailwind. Used Redux Toolkit, HOC, Lazy Loading, and Shimmer UI for performance—20% faster load time. Tested with RTL + Jest.",
@@ -31,7 +51,7 @@ const projects = [
     githubUrl: "https://github.com/sourav-n06/Food_Order",
   },
   {
-    id: 4,
+    id: 6,
     title: "Netflix GPT",
     description:
       "Netflix GPT is a React app with a Netflix-style UI that uses GPT to recommend and search movies, built with Redux and Tailwind CSS.",
