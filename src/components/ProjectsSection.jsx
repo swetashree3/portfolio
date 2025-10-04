@@ -8,7 +8,7 @@ const projects = [
     image: "/ByteChat.png",
     tags: ["React", "Node", "MongoDb", "Express", "Stream API", "TailwindCSS", "Daisy UI"],
     demoUrl: "https://bytechat-0hbv.onrender.com/",
-    githubUrl: "https://github.com/sourav-n06/ByteChat",
+    githubUrl: "https://github.com/swetashree3/ByteChat",
   },
   {
     "id": 2,
@@ -17,49 +17,18 @@ const projects = [
     "image": "/nexthire.png",
     "tags": ["React", "Node", "MongoDB", "Express", "Cloudinary", "TailwindCSS"],
     "demoUrl": "https://next-hire-o84z.onrender.com/",
-    "githubUrl": "https://github.com/sourav-n06/next-hire"
+    "githubUrl": "https://github.com/swetashree3/Job-Portal"
   }
   ,
   {
     "id": 3,
-    "title": "Snappin (Social Media App)",
-    "description": "Built with React, Node.js, MongoDB, and Express. Features user authentication with JWT, real-time post updates, likes, comments, follow/unfollow system, and a responsive UI using TailwindCSS ",
-    "image": "/snappin.png",
-    "tags": ["React", "Node", "MongoDB", "Express", "TailwindCSS"],
-    "demoUrl": "https://your-snappin-demo-url.com",
-    "githubUrl": "https://github.com/sourav-n06/snappin"
-
-  },
-  {
-    id: 4,
-    title: "Course Selling App",
-    description:
-      "Responsive MERN app with Firebase auth, dynamic content, Cloudinary uploads, EmailJS integration, Redux state, and a Tailwind-powered mobile-first UI.",
-    image: "/csa.png",
-    tags: ["React", "Redux", "FireBase", "TailwindCss", "EmailJS", "Cloudinary"],
-    demoUrl: "https://academic-course-main-pi.vercel.app/",
-    githubUrl: "https://github.com/sourav-n06/academic-course-main",
-  },
-  {
-    id: 5,
-    title: "Food Ordering App",
-    description:
-      "Built with Swiggy’s live API, React, and Tailwind. Used Redux Toolkit, HOC, Lazy Loading, and Shimmer UI for performance—20% faster load time. Tested with RTL + Jest.",
-    image: "/foa.png",
-    tags: ["React", "Redux", "TailwindCss"],
-    demoUrl: "https://drive.google.com/file/d/1RUtzZNv7tItDLPqYeoEdD4r-UqUel7Gb/view?usp=drivesdk",
-    githubUrl: "https://github.com/sourav-n06/Food_Order",
-  },
-  {
-    id: 6,
-    title: "Netflix GPT",
-    description:
-      "Netflix GPT is a React app with a Netflix-style UI that uses GPT to recommend and search movies, built with Redux and Tailwind CSS.",
-    image: "/net.png",
-    tags: ["React", "Redux", "TailwindCss"],
-    demoUrl: "https://6603d5426a6a086f56d4785c--heartfelt-florentine-27ee7f.netlify.app/",
-    githubUrl: "https://github.com/sourav-n06/NetflixGPT",
-  },
+    "title": "Accident Detection and Alert System",
+    "description": "Developed a system using Arduino Uno, GSM, GPS, and accelerometer to send instant alerts with exact location to police and ambulance. Implemented with Arduino IDE and Python to ensure timely medical assistance and reduce casualties.",
+    "image": "/acc.png",
+    "tags": ["Arduino", "GSM", "GPS", "Python", "Embedded Systems"],
+    "demoUrl": "",
+    "githubUrl": ""
+  }
 ];
 
 export const ProjectsSection = () => {
@@ -130,7 +99,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/sourav-n06"
+            href="https://github.com/swetashree3"
           >
             Check My Github <ArrowRight size={16} />
           </a>

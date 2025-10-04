@@ -3,8 +3,8 @@ import { Briefcase, Code, User } from "lucide-react";
 export const AboutSection = () => {
     const handleDownload = () => {
         const link = document.createElement("a");
-        link.href = "/SouravHazra.pdf"; // ensure this file exists in the public folder
-        link.download = "SouravHazra.pdf";
+        link.href = "/Swetashree_Mal.pdf"; // ensure this file exists in the public folder
+        link.download = "Swetashree_Mal.pdf";
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);

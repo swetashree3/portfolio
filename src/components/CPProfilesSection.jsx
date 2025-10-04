@@ -4,13 +4,13 @@ const cpProfiles = [
   {
     name: "LeetCode",
     description: "Solving DSA problems and participating in weekly contests.",
-    url: "https://leetcode.com/sourav_n06",
+    url: "https://leetcode.com/u/malswetashree/",
     logo: "/lcc.png", // Place this in public/logos/
   },
   {
     name: "GeeksforGeeks",
     description: "Practice coding problems and learn new algorithms.",
-    url: "https://www.geeksforgeeks.org/user/sourav_n06",
+    url: "",
     logo: "/gfg.png",
   },
   {
